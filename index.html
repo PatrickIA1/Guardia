@@ -182,7 +182,7 @@
       <div class="field">
         <!-- ícone usuário -->
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 12c2.761 0 5-2.239 5-5s-2.239-5-5-5-5 2.239-5 5 2.239 5 5 5Zm0 2c-4.418 0-8 2.239-8 5v1h16v-1c0-2.761-3.582-5-8-5Z" fill="currentColor" opacity=".9"/></svg>
-        <input type="text" id="login-user" placeholder="Usuário (2 caracteres)" maxlength="2" />
+        <input type="text" id="login-user" placeholder="Usuário" maxlength="5" />
       </div>
       <label class="sr-only" for="login-pass">Senha</label>
       <div class="field">
@@ -236,7 +236,20 @@
       "11":"Z4H6","12":"B7M1","13":"W5T0","14":"J6K8","15":"H9U3",
       "16":"R3Q7","17":"V1L5","18":"S2A9","19":"Y6G4","20":"E8Z0",
       "21":"T0C6","22":"G3X1","23":"U4B8","24":"P9D2","25":"O1F3",
-      "26":"I6N7","27":"M5S0","28":"K2W9","29":"A7R6","30":"C0L4"
+      "26":"I6N7","27":"M5S0","28":"K2W9","29":"A7R6","@001":"C0L4",
+      "30":"L3V9","31":"D7H2","32":"N8T4","33":"F0Y5","34":"Q1X7",
+      "35":"B6A3","36":"U9P0","37":"W2C8","38":"G4M6","39":"E5Z1",
+      "40":"R7K9","41":"T8S2","42":"H1L4","43":"O3N0","44":"C6W5",
+      "45":"J9V7","46":"I0D3","47":"M2B8","48":"K5Q1","49":"Z4E6",
+      "50":"X7U9","51":"P1A0","52":"Y3T5","53":"S6H4","54":"L2F7",
+      "55":"D8X0","56":"G9C1","57":"N4W3","58":"F7M8","59":"Q0K6",
+      "60":"B5L2","61":"U6P9","62":"W1V3","63":"E9T0","64":"R0A5",
+      "65":"T3X6","66":"H8C7","67":"O6M2","68":"C1D9","69":"J4N0",
+      "70":"I7B6","71":"M3Q5","72":"K8E0","73":"Z2U1","74":"X6F9",
+      "75":"P4H3","76":"Y0T8","77":"S9W6","78":"L5K1","79":"D2M7",
+      "@002":"M7Q1", "@003":"L3V9", "@004":"T6B2", "@005":"K9X4", "@006":"Z1A7", 
+      "@007":"W8D3", "@008":"N2F6", "@009":"R4Y0", "@010":"H5U8"
+
     };
     let sessionId = "";
 
@@ -260,7 +273,7 @@
     });
 
     // ====== Chat / n8n (mantido) ======
-    const webhookUrl = "https://n8n-n8n.2vqds9.easypanel.host/webhook/receber-mensagem";
+    const webhookUrl = "https://n8n-n8n.2vqds9.easypanel.host/webhook/multi-cora";
     const chat  = document.getElementById("chat");
     const form  = document.getElementById("form");
     const input = document.getElementById("input");
